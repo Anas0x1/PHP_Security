@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <p>Please Login</p>
+        <form id="form1" method="post">
+            <!-- Ensure session ID is properly escaped -->
+            <input type="hidden" name="sessionId" value="<?php echo htmlspecialchars($_REQUEST['sid']); ?>">
+            Username : <input type="text" name="username">
+            Password : <input type="password" name="password">
+            <input type="submit" value="login">
+        </form>
+    </body>
+</html>
