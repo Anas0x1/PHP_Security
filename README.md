@@ -36,16 +36,12 @@ This project demonstrates various web application vulnerabilities commonly found
 2. **Cross-Site Scripting (XSS)**
 
 4. **Clickjacking**
-   - Vulnerable Code: `vuln_clickjacking.php`
-   - Secure Code: `secure_clickjacking.php`
-
+   - Exploit Code: `exploit_clickjacking.php`
+     
 4. **Open Redirect**
    - Vulnerable Code: `vuln_redirect.php`
-   - Secure Code: `secure_redirect.php`
 
 5. **PHP Serialization**
-   - Vulnerable Code: `vuln_serialize.php`
-   - Secure Code: `secure_serialize.php`
 
 1. **Server Side Request Forgery (SSRF)**
    - Vulnerable Code: `vuln_ssrf.php`
@@ -55,12 +51,12 @@ This project demonstrates various web application vulnerabilities commonly found
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your-username/web-vulnerabilities-php.git
+   git clone https://github.com/0x0anas/PHP_Security.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd web-vulnerabilities-php
+   cd PHP_Security
    ```
 
 3. Choose the vulnerability you want to explore and navigate to its directory.
