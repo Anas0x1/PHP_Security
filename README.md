@@ -6,25 +6,50 @@ This project demonstrates various web application vulnerabilities commonly found
 
 ### Vulnerabilities Covered
 
-1. **SQL Injection (SQLi)**
-   - Vulnerable Code: `sql_injection_vulnerable.php`
-   - Secure Code: `sql_injection_secure.php`
-
-2. **Cross-Site Scripting (XSS)**
-   - Vulnerable Code: `xss_vulnerable.php`
-   - Secure Code: `xss_secure.php`
+1. **Cross Origin Resource Sharing (CORS)**
+   - Vulnerable Code: `vuln_cors.php`
+   - Exploit Code: `exploit_cors.html`
+   - Secure Code: `secure_cors.php`
 
 3. **Cross-Site Request Forgery (CSRF)**
-   - Vulnerable Code: `csrf_vulnerable.php`
-   - Secure Code: `csrf_secure.php`
+   - Vulnerable Code: `vuln_csrf.php`
+   - Exploit Code: `exploit_csrf.html`
+   - Secure Code: `secure_csrf.php`
 
-4. **Session Fixation**
-   - Vulnerable Code: `session_fixation_vulnerable.php`
-   - Secure Code: `session_fixation_secure.php`
+3. **File Upload**
+   - Vulnerable Code: `vuln_file_upload.php`
+   - Secure Code: `secure_file_upload.php`
+     
+1. **HTML Injection (HTMLi)**
+   - Vulnerable Code: `vuln1_htmli.php`
+   - Vulnerable Code: `vuln2_htmli.php`
+   - Secure Code: `secure_htmli.php`
 
-5. **File Upload Vulnerability**
-   - Vulnerable Code: `file_upload_vulnerable.php`
-   - Secure Code: `file_upload_secure.php`
+1. **SQL Injection (SQLi)**
+   - Vulnerable Code: `vuln_sqli.php`
+   - Secure Code: `secure_sqli.php`
+
+1. **Server Side Template Injection (SSTI)**
+   - Vulnerable Code: `vuln_ssti.php`
+   - Secure Code: `secure_ssti.php`
+
+2. **Cross-Site Scripting (XSS)**
+
+4. **Clickjacking**
+   - Vulnerable Code: `vuln_clickjacking.php`
+   - Secure Code: `secure_clickjacking.php`
+
+4. **Open Redirect**
+   - Vulnerable Code: `vuln_redirect.php`
+   - Secure Code: `secure_redirect.php`
+
+5. **PHP Serialization**
+   - Vulnerable Code: `vuln_serialize.php`
+   - Secure Code: `secure_serialize.php`
+
+1. **Server Side Request Forgery (SSRF)**
+   - Vulnerable Code: `vuln_ssrf.php`
+   - Secure Code: `secure_ssrf.php`
 
 ### Running the Code
 
