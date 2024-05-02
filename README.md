@@ -30,8 +30,8 @@ This project demonstrates various web application vulnerabilities commonly found
    - Secure Code: `secure_sqli.php`
 
 1. **Server Side Template Injection (SSTI)**
-   - Vulnerable Code: `vuln_ssti.php`
-   - Secure Code: `secure_ssti.php`
+   - Vulnerable Code: `vuln_ssti.py`
+   - Secure Code: `secure_ssti.py`
 
 2. **Cross-Site Scripting (XSS)**
 
