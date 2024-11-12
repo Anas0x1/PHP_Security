@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM XSS Mitigated Example</title>
+</head>
+<body>
+<form method="get">
+	<input type="text" name="name">
+	<input type="submit">
+</form>
+
+<p id="greeting">Enter your name above and submit:</p>
+
+<script>
+	// Get the 'name' parameter from the URL
+	const params = new URLSearchParams(window.location.search);
+	const name = params.get('name');
+
+	// Safely insert user input into the DOM using textContent
+	if (name) {
+		const greeting = document.getElementById("greeting");
+		greeting.textContent = `Hello, ${name}!`;
+	}
+</script>
+</body>
+</html>
